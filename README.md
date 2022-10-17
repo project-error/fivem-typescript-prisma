@@ -4,4 +4,7 @@
 
 ## Getting started
 
-Run `pnpm install` to install deps, add your db connction string and generate/db pull with prisma.
+1. Run `pnpm install` to install deps
+2. Add your db connction string as an env variable, or overwrite the datasource in `./server/server.ts` 
+3. Run `pnpm prisma db pull` to connect your database and add Prisma models to your Prisma schema.
+4. Run `pnpm prisma generate` to generate the necessary assets.
