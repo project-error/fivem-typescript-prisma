@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es2018"],
+    "moduleResolution": "node",
+    "types": ["@types/node", "@citizenfx/client"]
+  },
+  "exclude": ["node_modules"]
+}

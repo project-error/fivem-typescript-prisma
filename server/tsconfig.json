@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "types": ["@types/node", "@citizenfx/server"],
+    "lib": ["esnext"],
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["./**/*"]
+}
